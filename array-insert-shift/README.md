@@ -22,7 +22,7 @@ inputArray = [ 1, 2, 3, 145, 4, 5 ]
 
 ## Whiteboard Process
 
-![Code Challenge 02 Whiteboard]()
+![Array-insert-shift Whiteboard]()
 
 ## Approach & Efficiency
 
