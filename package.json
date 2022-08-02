@@ -4,7 +4,8 @@
   "description": "[Code Challenge: Class 01: Reverse Array](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/arrayReverse)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,10 +15,23 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArzuVon/data-structures-and-algorithms/issues"
+    "url": "https://github.com/ArzuVon/data-structures-and-algorithms/issues",
+    "devDependencies": {
+      "@babel/core": "^7.18.9",
+      "@babel/preset-env": "^7.18.9",
+      "@babel/preset-typescript": "^7.18.6",
+      "@types/jest": "^28.1.6",
+      "babel-jest": "^28.1.3"
+    },
+    "homepage": "https://github.com/ArzuVon/data-structures-and-algorithms#readme",
+    "dependencies": {
+      "jest": "^28.1.3",
+      "typescript": "^4.7.4"
+    }
   },
-  "homepage": "https://github.com/ArzuVon/data-structures-and-algorithms#readme",
-  "dependencies": {
-    "jest": "^28.1.3"
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^28.1.6",
+    "@types/mocha": "^9.1.1"
   }
 }

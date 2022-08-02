@@ -33,10 +33,6 @@ includes(item: T): boolean {
 
 toString(): string {
     // For each item
-    // get its string using display(item)
-    // put it inside { }
-    // Put an arrow between all items
-    // End the entire list with a "Null"
     let str = "";
 
     let tracker = this.start;
@@ -44,10 +40,13 @@ toString(): string {
         //ToDo
         //add this node to the string
         while (tracker !== undefined) {
+           // get its string using display(item)
             const displayString = display(tracker.item);
+            // Put an arrow between all items
             str += `{ ${tracker.item} } -> `;
             tracker = tracker.next;
           }
+            // End the entire list with a "Null"
           str += "NULL";
           return str;
         }
@@ -68,7 +67,7 @@ toString(): string {
 
 //A node tracks one item and the next
 
-interface Node<T>{
-    item: T;
-    next: Node<T> | undefined;
-}
+// interface Node<T>{
+//     item: T;
+//     next: Node<T> | undefined;
+// }
