@@ -8,7 +8,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Whiteboard Process
 
-![401-Code Challenge 04](https://user-images.githubusercontent.com/107226923/180902153-e78696ef-ddab-48a7-a7e4-6b12ce0ef15a.png)
+![401-Code Challenge 03](https://user-images.githubusercontent.com/107226923/180902153-e78696ef-ddab-48a7-a7e4-6b12ce0ef15a.png)
 
 ## Approach & Efficiency
 
@@ -18,7 +18,6 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 - Find each index sum for array
 - Create an empty array of the row to the new added row
 - Print each row to check
-
 
 ## Big O
 
