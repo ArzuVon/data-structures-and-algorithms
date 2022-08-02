@@ -1,0 +1,21 @@
+{
+  "name": "linked-list",
+  "version": "0.0.0",
+  "description": "Linked List Collection Implementation",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.6",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3",
+    "typescript": "^4.7.4"
+  }
+}
