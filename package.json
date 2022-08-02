@@ -1,0 +1,23 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "[Code Challenge: Class 01: Reverse Array](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/arrayReverse)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArzuVon/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArzuVon/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/ArzuVon/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}

@@ -1,4 +1,5 @@
-import { Collection, display } from "./Collection";
+import { Collection } from './Collection';
+import { LinkedList } from './LinkedList';
 
 //Three parts of variable
 //let name: type = value
