@@ -1,52 +1,35 @@
-import { Collection } from './Collection';
-import { LinkedList } from './LinkedList';
+import { Collection, display } from './Collection';
 
 //Three parts of variable
 //let name: type = value
 
-export class LinkedList<T>implements Collection<T>{
+export class LinkedList<T> implements Collection<T> {
     start: Node<T>|undefined; //or head
 
 
     //TODO
     insert(item: T){
-       this.start= {
-            item: item,
-            next: this.start,
-    };
-    //this.start = newNode;
+        const newNode ={
+            item, item,
+            next: this.start
+        };
+    this.start = newNode;
 }
 
-    includes(item: T): boolean {
-        //what is the first item?
-        //this.start
-        let tracker = this.start;
-        //need to do some traversal...how 
-        if(tracker?.item === item){
-            return true;
-        } else {
-            // check the second item
-            if(tracker?.next?.item === item){
-                return true;
-            }
-        }
-
-        //what is the last thing to do?
+includes(item: T): boolean {
+     //what is the first item?
+    let tracker = this.start;
+     //need to do some traversal 
+    while (tracker !== undefined) {
+    // check the second item
+      if (tracker.item === item) {
         return true;
+      }
+      tracker = tracker.next;
     }
-// below is traversal
-    while (tracker !=== undefined /* there is a value */) {
-        //do this thing
-        if (tracker. item === item){
-            return true;
-        }
-        //move foward
-        tracker = tracker.next;
-    }
-
-    //whats the last thing to do?
+    //what is the last thing to do?
     return false;
-}
+  }
 
 toString(): string {
     // For each item
@@ -57,16 +40,29 @@ toString(): string {
     let str = "";
 
     let tracker = this.start;
-    while (tracker !=== undefined) {
+    while (tracker !== undefined) {
         //ToDo
         //add this node to the string
-        const strItem = display(tracker.item);
-        str += `{ ${strItem} } => `;
-        tracker = tracker.next;
-    }
-    str =+ Null
-    return str;
-}
+        while (tracker !== undefined) {
+            const displayString = display(tracker.item);
+            str += `{ ${tracker.item} } -> `;
+            tracker = tracker.next;
+          }
+          str += "NULL";
+          return str;
+        }
+      }
+
+
+
+//Davids example below helped simplify above
+//         const strItem = display(tracker.item);
+//         str += `{ ${strItem} } => `;
+//         tracker = tracker.next;
+//     }
+//     str =+ Null
+//     return str;
+// }
 
 
 
