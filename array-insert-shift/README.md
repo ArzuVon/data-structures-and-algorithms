@@ -22,7 +22,7 @@ inputArray = [ 1, 2, 3, 145, 4, 5 ]
 
 ## Whiteboard Process
 
-![Array-insert-shift Whiteboard](https://user-images.githubusercontent.com/107226923/179643014-310d395d-1b55-49ce-89d4-1b5b5e52d881.png)
+![Array-insert-shift Whiteboard](https://user-images.githubusercontent.com/107226923/180901550-b7152cf0-e208-4584-9f95-b4cd8642b00c.png)
 
 ## Approach & Efficiency
 
