@@ -33,7 +33,7 @@ includes(item: T): boolean {
 
 toString(): string {
     // For each item
-    let str = "";
+    let string = "";
 
     let tracker = this.start;
     while (tracker !== undefined) {
@@ -43,12 +43,12 @@ toString(): string {
            // get its string using display(item)
             const displayString = display(tracker.item);
             // Put an arrow between all items
-            str += `{ ${tracker.item} } -> `;
+            string += `{ ${tracker.item} } -> `;
             tracker = tracker.next;
           }
             // End the entire list with a "Null"
-          str += "NULL";
-          return str;
+          string += "NULL";
+          return string;
         }
       }
 
