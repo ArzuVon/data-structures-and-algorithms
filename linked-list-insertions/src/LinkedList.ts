@@ -1,14 +1,5 @@
 import { Collection, display } from "./Collection";
 
-// ES5 prototype
-// const LinkedList = function() {};
-// LinkedList.prototype.insert(item) {};
-
-// class
-// interface
-
-// Three parts of a variable:
-// let name: type = value;
 interface Node<T> {
   data: T,
   next: Node<T> | undefined;
