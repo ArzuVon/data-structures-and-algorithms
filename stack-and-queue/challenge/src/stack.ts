@@ -24,6 +24,12 @@ export class Stack<T> {
     } else {
       throw this.newArr.shift(); 
     } 
-
+  }
+    isEmpty(): boolean {
+      if(this.newArr.length === 0){
+        return true;
+      } else {
+        return false;
+      }
   }
 }
