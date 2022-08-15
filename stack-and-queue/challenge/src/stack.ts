@@ -6,19 +6,24 @@ export class Stack<T> {
     // throw new Error("Not implemented");
   }
 
-  get peek(): T {
-    this.newArr[this.size -1];
-    throw new Error("Not implemented");
-
-  }
+  get peek(): T | undefined{
+    if(this.isEmpty()){
+      throw new Error("Stack is empty");
+      } else {
+      return this.newArr[this.size -1];
+    }
+  }  
 
   push(value: T): void {
     this.newArr.push(value);
   }
 
   pop(): T | undefined {
-    return this.newArr.push(value);
-    Throw new Error("Not implemented");
+    if(this.isEmpty()) {
+      throw new Error("Stack is empty");
+    } else {
+      throw this.newArr.shift(); 
+    } 
 
   }
 }
