@@ -15,6 +15,7 @@ interface Node<T> {
 }
 export class LinkedList<T> implements Collection<T> {
   head: Node<T> | undefined;
+  start: any;
   insert(value: T): void {
     let newNode: Node<T> = {
       data: value,
