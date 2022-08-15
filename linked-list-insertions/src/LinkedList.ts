@@ -9,26 +9,27 @@ import { Collection, display } from "./Collection";
 
 // Three parts of a variable:
 // let name: type = value;
-
+interface Node<T> {
+  data: T,
+  next: Node<T> | undefined;
+}
 export class LinkedList<T> implements Collection<T> {
-  start: Node<T> | undefined;
-  head: any;
-
-  insert(item: T) {
-    const newNode = {
-      item: item,
-      next: this.start,
+  head: Node<T> | undefined;
+  insert(value: T): void {
+    let newNode: Node<T> = {
+      data: value,
+      next: this.head,
     };
-    this.start = newNode;
+    newNode.next = this.head;
+    this.head = newNode;
   }
-
-  includes(item: T): boolean {
-    let tracker = this.start;
-    while (tracker !== undefined) {
-      if (tracker.item === item) {
+  includes(value: T): boolean {
+    let current = this.head;
+    while (current != undefined){
+      if(current.data === value){
         return true;
       }
-      tracker = tracker.next;
+      current = current.next;
     }
     return false;
   }
