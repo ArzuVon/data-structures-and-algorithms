@@ -1,0 +1,53 @@
+{
+  "devDependencies": {
+    "@types/jest": "^28.1.7"
+  },
+  "name": "data-structures-and-algorithms",
+  "description": "- [Code Challenge: Class 01: Reverse Array](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/arrayReverse) - [Code Challenge02: Array Shift](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/array-insert-shift) - [Code Challenge 03: Binary Search](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/array-binary-search) - [Code Challenge 04: Add Sum Matrix](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/addSum)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-regex": "^5.0.1",
+    "braces": "^3.0.2",
+    "color-convert": "^2.0.1",
+    "chalk": "^4.1.2",
+    "ansi-styles": "^4.3.0",
+    "diff-sequences": "^28.1.1",
+    "ci-info": "^3.3.2",
+    "escape-string-regexp": "^2.0.0",
+    "graceful-fs": "^4.2.10",
+    "color-name": "^1.1.4",
+    "has-flag": "^4.0.0",
+    "expect": "^28.1.3",
+    "is-number": "^7.0.0",
+    "fill-range": "^7.0.1",
+    "jest-matcher-utils": "^28.1.3",
+    "js-tokens": "^4.0.0",
+    "jest-get-type": "^28.0.2",
+    "jest-util": "^28.1.3",
+    "jest-message-util": "^28.1.3",
+    "micromatch": "^4.0.5",
+    "slash": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "react-is": "^18.2.0",
+    "pretty-format": "^28.1.3",
+    "to-regex-range": "^5.0.1",
+    "jest-diff": "^28.1.3",
+    "supports-color": "^7.2.0",
+    "stack-utils": "^2.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArzuVon/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArzuVon/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/ArzuVon/data-structures-and-algorithms#readme"
+}

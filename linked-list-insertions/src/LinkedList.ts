@@ -11,76 +11,91 @@ import { Collection, display } from "./Collection";
 // let name: type = value;
 
 export class LinkedList<T> implements Collection<T> {
-  start: Node<T> | undefined; // or head
+  start: Node<T> | undefined;
+  head: any;
 
   insert(item: T) {
-    this.start = {
+    const newNode = {
       item: item,
       next: this.start,
     };
+    this.start = newNode;
   }
 
   includes(item: T): boolean {
-    // What is the first item?
-    // this.start
     let tracker = this.start;
-
-    // if (tracker?.item === item) {
-    //   return true;
-    // }
-    // // check the second item
-    // if (tracker?.next?.item === item) {
-    //   return true;
-    // }
-    // // check the third item
-    // if (tracker?.next?.next?.item === item) {
-    //   return true;
-    // }
-    // // check the fourth item
-    // if (tracker?.next?.next?.next?.item === item) {
-    //   return true;
-    // }
-    while (tracker !== undefined /* there is a value */) {
-      // do this thing
+    while (tracker !== undefined) {
       if (tracker.item === item) {
         return true;
       }
-      // move forward
       tracker = tracker.next;
     }
-
-    // What is the last thing to do?
     return false;
   }
-
   toString(): string {
-    // For each item
-    //   get its string using `display(item)`
-    //   Put it inside { }
-    //   Put an arrow between all items
-    //   End the entire list with a "NULL"
-    let str = "";
-
-    let tracker = this.start;
-    while (tracker !== undefined) {
-      // Add this node to the string
-      const strItem = display(tracker.item);
-      str += `{ ${strItem} } -> `;
-      tracker = tracker.next;
-    }
-
+    let current = this.head;
+    let str = '';
+    while (current != undefined){
+      str += `{ ${display(current.data)} } -> `;
+      current = current.next;
+    };
     str += "NULL";
-
     return str;
   }
+  append(value: T): void {
+    const newNode = {
+      item: value,
+      next: undefined,
+    };
+    let lastNode = this.start;
+    if (lastNode) {
+      while (lastNode.next) {
+        lastNode = lastNode.next;
+      }
+      lastNode.next = newNode;
+    }
+  }
 
-  append(value: T): void {}
-  insertBefore(needle: T, value: T) {}
-  insertAfter(needle: T, value: T) {}
-}
+  insertBefore(needle: T, value: T) {
+    let tracker = this.start;
+    let found = false;
+    while (tracker !== undefined) {
+      // check for first node
+      if (tracker.item === needle && found === false) {
+        found = true;
+        let shiftedNode = tracker;
+        const newNode = {
+          item: value,
+          next: shiftedNode,
+        };
+        this.start = newNode;
+      }
 
-// A node tracks one item and the next node
-interface Node<T> {
-  item: T;
-  next: Node<T> | undefined;
+      if (tracker.next?.item === needle && found === false) {
+        found = true;
+        let shiftedNode = tracker.next;
+        const newNode = {
+          item: value,
+          next: shiftedNode,
+        };
+        tracker.next = newNode;
+      }
+      tracker = tracker.next;
+    }
+  }
+
+  insertAfter(needle: T, value: T) {
+    let tracker = this.start;
+    while (tracker !== undefined) {
+      if (tracker.item === needle) {
+        let shiftedNode = tracker.next;
+        const newNode = {
+          item: value,
+          next: shiftedNode,
+        };
+        tracker.next = newNode;
+      }
+      tracker = tracker.next;
+    }
+  }
 }
