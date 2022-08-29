@@ -1,36 +1,41 @@
 import { SetOfStacks } from "./set_of_stacks.ts";
 
-describe("SetOfStacks", () => {
-  it("peeks and pops", () => {
-    const stack = new SetOfStacks(3);
+describe("Stack", () => {
+  it("can push", () => {
+    const s = new Stack<string>();
 
-    stack.push("Frodo");
-    stack.push("Sam");
-    stack.push("Merry");
-    stack.push("Pippin");
-
-    expect(stack.peek).toBe("Pippin");
-
-    stack.pop();
-
-    expect(stack.peek).toBe("Merry");
+    expect(() => s.push("Frodo")).not.toThrow();
   });
 
-  // BONUS QUESTION (2 points)
-  it("tracks total size", () => {
-    const stack = new SetOfStacks(3);
+  it("pushes", () => {
+    const s = new Stack<string>();
 
-    expect(stack.size).toBe(0);
+    s.push("Frodo");
+    s.push("Sam");
 
-    stack.push("Frodo");
-    stack.push("Sam");
-    stack.push("Merry");
-    stack.push("Pippin");
+    expect(s.size).toBe(2);
+    expect(s.peek).toBe("Sam");
+  });
+  it("pops", () =>{
+    const s = new Stack<String>();
 
-    expect(stack.size).toBe(4);
-
-    stack.pop();
-
-    expect(stack.size).toBe(3);
+    s.push("Frodo");
+    s.push("Sam");
+    s.push("Merry");
+    s.pop();
+    s.pop();
+    expect(s.size).toBe(1);
+  });
+  it(" instantiate an empty stack", () =>{
+    const s = new Stack<String>();
+    expect(s).toBeTruthy();
+  })
+  it("Throws exception when pop on empty stack", ()=>{
+    const s = new Stack<String>();
+    expect(()=> {s.pop()}).toThrow();
+  });
+  it("Throws exception when peek on empty stack", ()=>{
+    const s = new Stack<String>();
+    expect(()=> {s.peek}).toThrow();
   });
 });
