@@ -125,12 +125,6 @@ kthFromEnd(k: number): any {
   }
 
   while (k <= size) {
-    // will never go past the length of thde linked list
-    // k = 3
-    //size = 10
-    // 10 - 3(from the end of the LL)= 7(moving 7 spaces from the front of LL)                                                    Node G
-    //  1         2       3         4        5        6     7||3         2          1     0
-    //{'a'} -> {'b'} -> {'c'} -> {'d'} -> {'e'} -> {'f'} -> {'g'} -> {'h'} -> {'i'} -> {'j'}
     let len = size - k;
     for (let i = 0; i < len; i++) {
       tracker = tracker?.next;
