@@ -5,6 +5,27 @@ interface Node<T> {
   next: Node<T> | undefined;
 }
 export class LinkedList<T> implements Collection<T> {
+  zip(ll1: LinkedList<T>, ll2: LinkedList<T>): LinkedList<T> {
+    throw new Error("Method not implemented.");
+  }
+  static zip<T>(ll1: LinkedList<T>, ll2: LinkedList<T>): LinkedList<T> {
+    const zipped = new LinkedList<T>();
+    let ll1h = ll1.start;
+    let ll2h = ll2.start;
+    while (ll1h || ll2h) {
+      if (ll1h) {
+        zipped.append(ll1h.item);
+        ll1h = ll1h.next;
+      }
+      if (ll2h) {
+        zipped.append(ll2h.item);
+        ll2h = ll2h.next;
+      }
+    }
+    return zipped;
+  }
+
+export class LinkedList<T> implements Collection<T> {
   head: Node<T> | undefined;
   start: any;
   insert(value: T): void {
@@ -91,4 +112,41 @@ export class LinkedList<T> implements Collection<T> {
       tracker = tracker.next;
     }
   }
+}
+kthFromEnd(k: number): any {
+  let tracker = this.start;
+  let size = this.size(); //see line 123
+  //this is checking if the value of k is not more than length of the linked list or if k is less 0 which would make it a negative. we dont want to work with negative numbers
+  //edge case here
+  if (k > size || k < 0) {
+    throw new Error(
+      "That kth value is more than the values in the linked list."
+    );
+  }
+
+  while (k <= size) {
+    // will never go past the length of thde linked list
+    // k = 3
+    //size = 10
+    // 10 - 3(from the end of the LL)= 7(moving 7 spaces from the front of LL)                                                    Node G
+    //  1         2       3         4        5        6     7||3         2          1     0
+    //{'a'} -> {'b'} -> {'c'} -> {'d'} -> {'e'} -> {'f'} -> {'g'} -> {'h'} -> {'i'} -> {'j'}
+    let len = size - k;
+    for (let i = 0; i < len; i++) {
+      tracker = tracker?.next;
+    }
+    return tracker?.item;
+  }
+}
+//this counts the number of nodes in the linked list
+size(): number {
+  let counter = 0;
+  let tracker = this.start;
+  while (tracker != undefined) {
+    tracker = tracker.next;
+    counter++;
+  }
+  return counter;
+  }
+  // zipLists();
 }
