@@ -1,4 +1,4 @@
-const { BinarySearchTree } = require("./binary_search_tree.js");
+const { BinarySearchTree } = require("./binarySearchTree.js");
 
 describe.skip("Binary Search Tree", () => {
   const tree = new BinarySearchTree();
