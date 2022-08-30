@@ -1,7 +1,3 @@
-//Pre-order: root >> left >> right
-// In - order: left >> root >> right
-// Post - order: left >> right >> root
-
 class Node {
   constructor(value, left, right) {
     this.value = value;
@@ -10,18 +6,18 @@ class Node {
   }
 
   preOrder() {
-    //Pre-order: root >> left >> right
+    //Pre-order: root >> left >> right, easiest
     // Return a single array
     let traversal = [];
     traversal.push(this.value); // Root
 
     if (this.left) {
-      // Left
+    // Goes Left on tree
       let leftTraversal = this.left.preOrder();
       traversal = traversal.concat(leftTraversal);
     }
 
-    // Right
+    // Goes Right on tree
     if (this.right) {
       let rightTraversal = this.right.preOrder();
       traversal = traversal.concat(rightTraversal);
@@ -35,11 +31,11 @@ class Node {
     let traversal = [];
     traversal.push(this.value); // Root
     if (this.left) {
-      // Left
+    // Goes Left on tree
       let leftTraversal = this.left.inOrder();
       traversal = [...leftTraversal, ...traversal];
     }
-    // Right
+    // Goes Right on tree
     if (this.right) {
       let rightTraversal = this.right.inOrder();
       traversal = [...traversal, ...rightTraversal];
@@ -59,7 +55,7 @@ class Node {
       traversal = [...rightTraversal, ...traversal];
     }
     if (this.left) {
-      // Left
+    // Left
       let leftTraversal = this.left.postOrder();
       traversal = [...leftTraversal, ...traversal];
     }

@@ -1,4 +1,4 @@
-const { Node, BinaryTree } = require("./binary_tree.js");
+const { Node, BinaryTree } = require("./binaryTree.js");
 
 class BinarySearchTree extends BinaryTree {
   add(number) { }
