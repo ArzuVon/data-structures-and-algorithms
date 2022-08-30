@@ -1,5 +1,4 @@
-// const { BinaryTree, Node } = require("./binary_tree.js");
-const { Node } = require("./binary_tree.js");
+const { Node } = require("./binaryTree.js");
 
 describe("Binary Tree", () => {
   // const tree = new BinaryTree(

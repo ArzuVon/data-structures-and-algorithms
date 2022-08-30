@@ -1,21 +1,19 @@
 {
-  "name": "trees - code challenge 15",
+  "name": "trees",
   "version": "1.0.0",
-  "description": "Code Challenge 15:Create a Binary Tree class",
+  "description": "Binary Tree class",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node your-script.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marthaquinram/data-structures-and-algorithms-401.git"
   },
-  "author": "Martha Quintanilla-Ramirez",
+  "author": "Von Arzu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Marthaquinram/data-structures-and-algorithms-401/issues"
   },
-  "homepage": "https://github.com/Marthaquinram/data-structures-and-algorithms-401#readme",
   "dependencies": {
     "jest": "^29.0.1"
   }
