@@ -13,6 +13,8 @@ Find the maximum value stored in the tree. You can assume that the values stored
 
 ![Max in Binary Tree Whiteboard](https://www.figma.com/file/ByLeDmjkPAz7z9z2r2Qgjn/Code-Challenge-16?node-id=0%3A1)
 
+![Max value BST Whiteboard](https://user-images.githubusercontent.com/107226923/188058154-277f2a4a-9e87-4de4-9e1a-b51e6cee526b.png)
+
 ## Replit Code
 
 [Max BTS Completed](https://replit.com/@VonArzu/Code-Challenge-16#index.js)
