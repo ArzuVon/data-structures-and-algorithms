@@ -15,10 +15,12 @@ Create a Node class that has properties for the value stored in the node, the le
 ## Approach & Efficiency
 
 ```
+
 >Pre-order: root >> left >> right
 In-order: left >> root >> right
 Post-order: left >> right >> root
 Finding the max
+
 ```
 
 ## Collaboration: Martha and Sarah
