@@ -1,8 +1,14 @@
 # Data-Structures-and-Algorithms
 
-- [Code Challenge: Class 01: Reverse Array](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/arrayReverse)
-- [Code Challenge02: Array Shift](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/array-insert-shift)
-- [Code Challenge 03: Binary Search](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/array-binary-search)
-- [Code Challenge 04: Add Sum Matrix](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/addSum)
-
-###  [Music used to code](https://www.youtube.com/watch?v=M5QY2_8704o)
+- [Reverse Array](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/arrayReverse)
+- [Array Insert Shift](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/array-insert-shift)
+- [Binary Search](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/array-binary-search)
+- [Add Sum Matrix](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/addSum)
+- [Linked List](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/linked-list)
+- [Linked List Insertions](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/linked-list-insertions)
+- [Set Of Stacks](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/setOfStacks)
+- [Stack and Queue](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/stack-and-queue)
+- [Stack and Queue Animal Shelter](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/stack-queue-animal-shelter)
+- [Stack and Queue Bracket](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/stack-queue-brackets)
+- [Trees](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/trees)
+- [Max Value Binary Tree](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/tree-max)

@@ -11,6 +11,7 @@ representing whether or not the brackets in the string are balanced
 ## Whiteboard Process
 
 [Code Challenge 13](https://www.figma.com/file/1YfhI1J688ElvKRRreyynm/Code-Challenge-13?node-id=1%3A159)
+![Whiteboard](https://user-images.githubusercontent.com/107226923/186071603-435ba0a7-18b9-4183-a21f-879bf14858da.png)
 
 ## Approach & Efficiency
 
@@ -23,3 +24,5 @@ Curly Brackets : {}
 started most of the code in class
 
 ![CC 13](https://user-images.githubusercontent.com/107226923/191033424-8a2fdea9-f62b-4268-945c-589c18068e1f.png)
+
+

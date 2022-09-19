@@ -1,0 +1,22 @@
+{
+  "name": "trees",
+  "version": "1.0.0",
+  "description": "Binary Tree class",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node your-script.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Von Arzu",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "jest": "^29.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14"
+  }
+}
