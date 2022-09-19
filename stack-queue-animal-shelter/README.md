@@ -6,6 +6,7 @@
 
 - Write code that will enqueue and dequeue animals
 
+[Whiteboard](https://www.figma.com/file/88jcZn7jw8y3Bb7T6jX8Fv/Code-Challenge-12%2C-19?node-id=1%3A36)
 ![Screen Shot 2022-09-19 at 5 48 44 AM](https://user-images.githubusercontent.com/107226923/190992077-59a00cdd-d779-429e-ad19-78d7b0ee2548.png)
 
 ## Solution
