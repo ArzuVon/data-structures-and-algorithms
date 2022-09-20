@@ -31,6 +31,8 @@ function breadthFirst() {
 
 ## Approach & Efficiency
 
+[Whiteboard]()
+
 > using a while loop to continue doing those three steps of checking a node, adding its left child, and adding its right child. We continue iterating through the queue array until everything has been removed from it, and its length is 0.
 
 ### Test cases
