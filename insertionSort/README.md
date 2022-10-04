@@ -21,6 +21,10 @@ InsertionSort(int[] arr)
 
 ```
 
+> Test and whiteboard for step by step process
+
+[Insertion Sort]()
+
 ---
 
 Collaborators
