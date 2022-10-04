@@ -1,11 +1,9 @@
 {
-  "name": "linked-list",
+  "name": "Data Structures Insertion Sort",
   "version": "0.0.0",
-  "description": "Linked List Collection Implementation",
-  "main": "index.js",
   "scripts": {
     "check": "tsc",
-    "test": "jest"
+    "test": "jest --verbose --coverage"
   },
   "author": "",
   "license": "ISC",
