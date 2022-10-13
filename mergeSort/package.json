@@ -1,0 +1,19 @@
+{
+  "name": "Data Structures Merge Sort",
+  "version": "0.0.0",
+  "scripts": {
+    "check": "tsc",
+    "test": "jest --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.6",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3",
+    "typescript": "^4.7.4"
+  }
+}
