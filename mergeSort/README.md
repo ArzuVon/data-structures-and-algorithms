@@ -4,6 +4,14 @@
 
 - Write a function given an array of numbers you compare values and then sort them in order.
 
+---
+
+### Visual blog merge
+
+![Merge Sort Visual](https://user-images.githubusercontent.com/107226923/195679718-955fed9d-7815-4c6a-99bd-0b1219726f94.png)
+
+---
+
 ```
 
 ALGORITHM Mergesort(arr)
@@ -49,6 +57,8 @@ ALGORITHM Merge(left, right, arr)
 ## Whiteboard Process
 
 [Merge Sort Whiteboard](https://miro.com/app/board/uXjVPdgoi_Q=/?share_link_id=124277752556)
+
+![Merge Sort Whiteboard](https://user-images.githubusercontent.com/107226923/195680162-9877d95c-ca8a-4c20-b3a5-68e2a91cbc9b.png)
 
 ---
 
