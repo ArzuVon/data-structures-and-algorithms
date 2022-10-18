@@ -21,9 +21,18 @@ InsertionSort(int[] arr)
 
 ```
 
+---
+
+## Whiteboard Process
+
 > Test and whiteboard for step by step process
 
 ## [Insertion Sort]()
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
 
 ---
 
