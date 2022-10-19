@@ -9,5 +9,8 @@
   "scripts": {
     "test": "jest",
     "watch": "jest --watch"
+  },
+  "dependencies": {
+    "install": "^0.13.0"
   }
 }
