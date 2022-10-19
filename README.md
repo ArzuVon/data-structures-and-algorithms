@@ -14,3 +14,5 @@
 - [Max Value Binary Tree](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/tree-max)
 - [Tree Breadth First](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/tree-breadth-first)
 - [Insertion Sort](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/insertionSort)
+- [Merge Sort](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/mergeSort)
+- [Quick Sort](https://github.com/ArzuVon/data-structures-and-algorithms/tree/main/quickSort)
