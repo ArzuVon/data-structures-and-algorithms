@@ -18,7 +18,10 @@ Space: O(n)
 ---
 
 ## Whiteboard
-![HashTable]()
+
+[HashTable](https://miro.com/app/board/uXjVPdgoi_Q=/)
+
+![HashTable](https://user-images.githubusercontent.com/107226923/197119795-1218f716-eec7-43b1-9763-85ba3e1cafcc.png)
 
 ---
 
