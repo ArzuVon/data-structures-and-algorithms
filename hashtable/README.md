@@ -18,6 +18,7 @@ Space: O(n)
 ---
 
 ## Whiteboard
+![HashTable]()
 
 ---
 
