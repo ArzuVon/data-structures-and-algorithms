@@ -19,7 +19,7 @@ occurrences with n elements, and then traverse over occurrences.
 
 ```
 
-![Input/Output]()
+![Input/Output](https://user-images.githubusercontent.com/107226923/197114481-67e877f7-98f3-4825-8196-e2e4aa764b51.png)
 
 
 ---
@@ -28,7 +28,7 @@ occurrences with n elements, and then traverse over occurrences.
 
 [Repeated Hashmap Word](https://miro.com/app/board/uXjVPdgoi_Q=/)
 
-![Repeated Hashmap Word]()
+![Repeated Hashmap Word](https://user-images.githubusercontent.com/107226923/197114593-c2482089-4199-4ddb-868b-45e6dea42a08.png)
 
 ---
 
