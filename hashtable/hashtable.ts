@@ -4,7 +4,6 @@ interface Node<V> {
   next: Node<V> | undefined;
 }
 
-// Your linked list from earlier labs
 class LinkedList<K, V> {
   start: Node<V> | undefined;
 
