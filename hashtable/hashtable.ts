@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 interface Node<V> {
   key: string;
   value: V;
@@ -86,3 +87,5 @@ export class HashTable<V> {
     );
   }
 }
+=======
+>>>>>>> Stashed changes
