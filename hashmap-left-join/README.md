@@ -23,6 +23,12 @@
 
 ---
 
+## [Whiteboard](https://miro.com/app/board/uXjVPdgoi_Q=/)
+
+![Hash Left Join ](https://user-images.githubusercontent.com/107226923/200636861-e6f3907f-5878-4db6-a229-043778f90116.png)
+
+---
+
 ### Big O
 
 - Time: O(n)
