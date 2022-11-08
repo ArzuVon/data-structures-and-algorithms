@@ -51,30 +51,30 @@ describe('Hashmap left join', () => {
     expect(leftJoin(mapOne, mapTwo)).toEqual([['a', 1, null]]);
   });
 
-  it('joins two hashmaps with right join', () => {
-    const mapOne = new Map();
-    mapOne.set('a', 1);
-    mapOne.set('b', 3);
-    mapOne.set('c', 5);
+  // it('joins two hashmaps with right join', () => {
+  //   const mapOne = new Map();
+  //   mapOne.set('a', 1);
+  //   mapOne.set('b', 3);
+  //   mapOne.set('c', 5);
 
-    const mapTwo = new Map();
-    mapTwo.set('a', 2);
-    mapTwo.set('b', 4);
-    mapTwo.set('c', 6);
+  //   const mapTwo = new Map();
+  //   mapTwo.set('a', 2);
+  //   mapTwo.set('b', 4);
+  //   mapTwo.set('c', 6);
 
-    expect(leftJoin(mapOne, mapTwo, 'right')).toEqual([['a', 2, 1], ['b', 4, 3], ['c', 6, 5]]);
+  //   expect(leftJoin(mapOne, mapTwo, 'right')).toEqual([['a', 2, 1], ['b', 4, 3], ['c', 6, 5]]);
 
-  });
+  // });
 
-  it('joins two hashmaps with right join with no matching keys', () => {
-    const mapOne = new Map();
-    mapOne.set('a', 1);
+  // it('joins two hashmaps with right join with no matching keys', () => {
+  //   const mapOne = new Map();
+  //   mapOne.set('a', 1);
 
-    const mapTwo = new Map();
-    mapTwo.set('b', 4);
+  //   const mapTwo = new Map();
+  //   mapTwo.set('b', 4);
 
-    expect(leftJoin(mapOne, mapTwo, 'right')).toEqual([['b', 4, null]]);
+  //   expect(leftJoin(mapOne, mapTwo, 'right')).toEqual([['b', 4, null]]);
 
-  });
+  // });
 
 });
