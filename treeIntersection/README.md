@@ -23,8 +23,11 @@ Push shared values into a third array
 
 ```
 
-```
+## [Whiteboard](https://miro.com/app/board/uXjVPdgoi_Q=/)
 
+![Tree Intersection](https://user-images.githubusercontent.com/107226923/200616136-36d398c3-46a7-4700-bc7b-98bf1bc44d38.png)
+
+```
 Input:
 
 Binary Tree 1 == {9} {8} {7} {100} {444} {88} {77} {55} {11} {10}
