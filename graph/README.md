@@ -10,6 +10,8 @@ Challenge Type: New Implementation/graph
 
 Implement a Graph. The graph should be represented as an adjacency list(list of edges), and should include the following methods:
 
+---
+
 ## Approach & Efficiency
 
 - `.addNode(value)`
@@ -32,9 +34,8 @@ Implement a Graph. The graph should be represented as an adjacency list(list of 
   - Time: O(1)
   - Space: O(1)
 
-- `breadthFirst()`
-  - Time: O(n)
-  - Space: O(n)
+
+---
 
 ## API
 
@@ -63,11 +64,8 @@ Implement a Graph. The graph should be represented as an adjacency list(list of 
   - Arguments: none
   - Returns the total number of nodes in the graph
 
-- `breadthFirst`
-  - Arguments: node
-  - Return: a collection of node in the order they were visited
-  - Display the collection
+---
 
 ## Whiteboard
 
-![Breadth First]()
+![Graph](https://user-images.githubusercontent.com/107226923/203421817-31a26125-ee2a-447e-8ea3-b8a5eea76d47.png)
