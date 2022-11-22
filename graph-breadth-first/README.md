@@ -76,4 +76,4 @@ Challenge Type: New Implementation/graph-breadth-first
 
 ## Whiteboard
 
-![Breadth First]()
+![Breadth First](https://user-images.githubusercontent.com/107226923/203428370-a3758399-8cf9-4a25-be28-01999b2a707b.png)
