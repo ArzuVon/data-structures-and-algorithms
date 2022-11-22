@@ -20,10 +20,11 @@
 
 ## [Whiteboard](https://miro.com/app/board/uXjVPdgoi_Q=/)
 
+![Graph Business Trip](https://user-images.githubusercontent.com/107226923/203403497-aab39f19-6b0b-4b00-9ab2-c65a0a923263.png)
 
 ---
 
 ### Big O
 
-- Time: O(n)
+- Time: O(n^2)
 - Space: O(n)
