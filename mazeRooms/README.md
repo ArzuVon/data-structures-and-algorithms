@@ -19,6 +19,14 @@
 
 ---
 
+## Whiteboard Process
+
+### [Graph for video game company](https://miro.com/app/board/uXjVPdgoi_Q=/)
+
+- ![Graph for video game company](https://user-images.githubusercontent.com/107226923/203690537-3ab60e50-b6c9-4806-8935-a61b83b89e8a.png)
+
+---
+
 ## API
 
 - `.addRoom`
@@ -45,9 +53,3 @@
 - `canSolve`
   - Arguments: maze and room
   - Return: boolean `true` if a player could get from the start of the maze to the pot of gold, or `false` if there is a locked door without an available key between the start and the gold
-
----
-
-## Whiteboard Process
-
-### [Graph for video game company](https://miro.com/app/board/uXjVPdgoi_Q=/)
